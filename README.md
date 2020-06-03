@@ -236,19 +236,19 @@ Once I've learned the basics of the relevant data structures/algorithms in this 
 
 ## Prerequisite Knowledge -- 5/19/20
 
-- [ ] **How computers process a program:**
-  - [ ] [How CPU executes a program (video)](https://www.youtube.com/watch?v=XM4lGflQFvA)
-  - [ ] [How computers calculate - ALU (video)](https://youtu.be/1I5ZMmrOfnA)
-  - [ ] [Registers and RAM (video)](https://youtu.be/fpnE6UAfbtU)
-  - [ ] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
-  - [ ] [Instructions and Programs (video)](https://youtu.be/zltgXvg6r3k)
+- [x] **How computers process a program:**
+  - [x] [How CPU executes a program (video)](https://www.youtube.com/watch?v=XM4lGflQFvA)
+  - [x] [How computers calculate - ALU (video)](https://youtu.be/1I5ZMmrOfnA)
+  - [x] [Registers and RAM (video)](https://youtu.be/fpnE6UAfbtU)
+  - [x] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
+  - [x] [Instructions and Programs (video)](https://youtu.be/zltgXvg6r3k)
 
 ## Algorithmic complexity / Big-O / Asymptotic analysis -- 5/19/20
 
 - Nothing to implement
 - There are a lot of videos here. Just watch enough until you understand it. You can always come back and review.
 - If some of the lectures are too mathy, you can jump down to the bottom and watch the discrete mathematics videos to get the background knowledge.
-- [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [x] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] Skiena:
@@ -271,7 +271,8 @@ Once I've learned the basics of the relevant data structures/algorithms in this 
 - ### Arrays -- 5/21/20
 
   - Implement an automatically resizing vector.
-  - [ ] Description:
+    \_ Sarthak's note -- I glazed by the implementation since in Python you can't use pointers/the only possible implementation of an array in Python seems to involve the use of List, which makes it pretty simple.
+  - [x] Description:
     - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
     - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
     - [Basic Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
@@ -309,7 +310,7 @@ Once I've learned the basics of the relevant data structures/algorithms in this 
 - ### Linked Lists -- 5/22/20
 
   - [ ] Description:
-    - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
+    - [][singly linked lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
     - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
     - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
   - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo) - not the whole video, just portions about Node struct and memory allocation.
