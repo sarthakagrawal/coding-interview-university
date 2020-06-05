@@ -309,10 +309,10 @@ Once I've learned the basics of the relevant data structures/algorithms in this 
 
 - ### Linked Lists -- 5/22/20
 
-  - [ ] Description:
-    - [][singly linked lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
-    - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
-    - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+  - [x] Description:
+    - [x] [singly linked lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
+    - [x] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
+    - [x] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
   - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo) - not the whole video, just portions about Node struct and memory allocation.
   - [ ] Linked List vs Arrays:
     - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
@@ -337,15 +337,15 @@ Once I've learned the basics of the relevant data structures/algorithms in this 
     - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
     - [ ] reverse() - reverses the list
     - [ ] remove_value(value) - removes the first item in the list with this value
-  - [ ] Doubly-linked List
-    - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
+  - [x] Doubly-linked List
+    - [Description (video)](https://www.youtube.com/watch?v=JdQeNxWCguQ) (originial recc was behind paywall, so I substituted this youtube video)
     - No need to implement
 
 - ### Stack
 
-  - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-  - [ ] [Using Stacks Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
-  - [ ] Will not implement. Implementing with array is trivial.
+  - [x] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+  - [x] [Using Stacks Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
+  - [x] Will not implement. Implementing with array is trivial.
 
 - ### Queue
 
