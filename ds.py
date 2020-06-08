@@ -20,3 +20,6 @@ class StaticArray():
 
     def at(self, idx):
         return self.items[idx]
+
+
+thing = {2: "thing"}
