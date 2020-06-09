@@ -23,3 +23,20 @@ class StaticArray():
 
 
 thing = {2: "thing"}
+
+arr = [1, 4, 5, 6, 64, 87, 89]
+
+
+def binarySearch(arr, target):
+    min, max = 0, len(arr)
+    if max < 1:
+        return -1
+    # first check the middle element. Then see if target is > or < middle
+    # element. Recurse.
+    midpt = (max + min) // 2
+    if arr[midpt] > target:
+        binarySearch(arr[min:midpt - 1], target)
+    elif arr[midpt] < target:
+        binarySearch(arr[midpt + 1:max], target)
+    else:
+        return midpt

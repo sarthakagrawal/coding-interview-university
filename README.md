@@ -376,7 +376,7 @@ Once I've learned the basics of the relevant data structures/algorithms in this 
     - [x] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
     - [x] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [1/2][pycon 2010: the mighty dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
+    - [x][pycon 2010: the mighty dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
     - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
     - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
@@ -404,9 +404,9 @@ Once I've learned the basics of the relevant data structures/algorithms in this 
 
 - ### Binary search
 
-  - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
+  - [x] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
   - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-  - [ ] [detail](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
+  - [x] [detail](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
   - [ ] Implement:
     - binary search (on sorted array of integers)
     - binary search using recursion
@@ -414,8 +414,9 @@ Once I've learned the basics of the relevant data structures/algorithms in this 
 - ### Bitwise operations
   - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
   - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
-    - [ ] [words](<https://en.wikipedia.org/wiki/Word_(computer_architecture)>)
+    - [x] [words](<https://en.wikipedia.org/wiki/Word_(computer_architecture)>)
     - [ ] Good intro:
+          **Sarthak note**: I started working on the below video, but I don't see the relevance to entry level coding interviews. May come back later.
           [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
     - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
     - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
