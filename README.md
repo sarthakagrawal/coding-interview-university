@@ -442,7 +442,7 @@ Once I've learned the basics of the relevant data structures/algorithms in this 
 
 - ### Trees - Notes & Background
 
-  - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
+  - [1/2][series: core trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees) -- left off here, https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/u7J70/support-code-for-bst-s-insert-method
   - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
   - basic tree construction
   - traversal
