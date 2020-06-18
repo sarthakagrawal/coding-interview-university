@@ -24,36 +24,36 @@
   - [Bitwise operations -- 5/29/20](#bitwise-operations)
 - [Trees](#trees)
   - [Trees - Notes & Background -- 6/1/20](#trees---notes--background)
-  - [Binary search trees: BSTs -- 6/3/20](#binary-search-trees-bsts)
-  - [Heap / Priority Queue / Binary Heap -- 6/5/20](#heap--priority-queue--binary-heap)
+  - [Binary search trees: BSTs -- 6/19/20](#binary-search-trees-bsts)
+  - [Heap / Priority Queue / Binary Heap -- 6/23/20](#heap--priority-queue--binary-heap)
   - balanced search trees (general concept, not details)
   - traversals: preorder, inorder, postorder, BFS, DFS
 - [Sorting](#sorting)
-  - selection -- 6/8/20
-  - insertion -- 6/9/20
-  - heapsort -- 6/10/20
-  - quicksort -- 6/11/20
-  - merge sort -- 6/12/20
+  - selection -- 6/24/20
+  - insertion -- 6/25/20
+  - heapsort -- 6/26/20
+  - quicksort -- 6/30/20
+  - merge sort -- 7/1/20
 - [Graphs](#graphs)
-  - directed -- 6/15/20
-  - undirected -- 6/16/20
-  - adjacency matrix -- 6/17/20
-  - adjacency list -- 6/18/20
-  - traversals: BFS, DFS -- 6/19/20
+  - directed -- 7/3/20
+  - undirected -- 7/6/20
+  - adjacency matrix -- 7/7/20
+  - adjacency list -- 7/8/20
+  - traversals: BFS, DFS -- 7/10/20
 - [Even More Knowledge](#even-more-knowledge)
-  - [Recursion -- 6/24/20](#recursion)
-  - [Dynamic Programming -- 6/26/20](#dynamic-programming)
-  - [Object-Oriented Programming -- 7/1/20](#object-oriented-programming)
-  - [Design Patterns -- 7/2/20](#design-patterns)
-  - [Combinatorics (n choose k) & Probability -- 7/3/20](#combinatorics-n-choose-k--probability)
-  - [NP, NP-Complete and Approximation Algorithms -- 7/4/20](#np-np-complete-and-approximation-algorithms)
-  - [Caches -- 7/5/20](#caches)
-  - [Processes and Threads -- 7/5/20](#processes-and-threads)
-  - [Testing -- 7/5/20](#testing)
-  - [Scheduling -- 7/6/20](#scheduling)
-  - [String searching & manipulations -- 7/6/20](#string-searching--manipulations)
-  - [Tries -- 7/8/20](#tries)
-  - [Floating Point Numbers -- 7/9/20](#floating-point-numbers)
+  - [Recursion -- 7/11/20](#recursion)
+  - [Dynamic Programming -- 7/16/20](#dynamic-programming)
+  - [Object-Oriented Programming -- 7/18/20](#object-oriented-programming)
+  - [Design Patterns -- 7/20/20](#design-patterns)
+  - [Combinatorics (n choose k) & Probability -- 7/20/20](#combinatorics-n-choose-k--probability)
+  - [NP, NP-Complete and Approximation Algorithms -- 7/23/20](#np-np-complete-and-approximation-algorithms)
+  - [Caches -- 7/24/20](#caches)
+  - [Processes and Threads -- 7/25/20](#processes-and-threads)
+  - [Testing -- 7/27/20](#testing)
+  - [Scheduling -- 7/27/20](#scheduling)
+  - [String searching & manipulations -- 7/28/20](#string-searching--manipulations)
+  - [Tries -- 7/29/20](#tries)
+  - [Floating Point Numbers -- 7/30/20](#floating-point-numbers)
 - [Final Review](#final-review)
 - [Coding Question Practice](#coding-question-practice)
 - [Coding exercises/challenges](#coding-exerciseschallenges)
