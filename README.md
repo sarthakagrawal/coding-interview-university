@@ -467,7 +467,7 @@ Once I've learned the basics of the relevant data structures/algorithms in this 
   - [ ] [Series (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
     - starts with symbol table and goes through BST applications
   - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
-  - [ ] [MIT (video)](https://www.youtube.com/watch?v=9Jry5-82I68)
+  - [x] [MIT (video)](https://www.youtube.com/watch?v=9Jry5-82I68)
   - C/C++:
     - [ ] [Binary search tree - Implementation in C/C++ (video)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
     - [ ] [BST implementation - memory allocation in stack and heap (video)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
@@ -480,17 +480,17 @@ Once I've learned the basics of the relevant data structures/algorithms in this 
     - [ ] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
     - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
   - [ ] Implement:
-    - [ ] insert // insert value into tree
-    - [ ] get_node_count // get count of values stored
-    - [ ] print_values // prints the values in the tree, from min to max
+    - [x] insert // insert value into tree
+    - [x] get_node_count // get count of values stored
+    - [x] print_values // prints the values in the tree, from min to max
     - [ ] delete_tree
-    - [ ] is_in_tree // returns true if given value exists in the tree
+    - [x] is_in_tree // returns true if given value exists in the tree
     - [ ] get_height // returns the height in nodes (single node's height is 1)
     - [ ] get_min // returns the minimum value stored in the tree
     - [ ] get_max // returns the maximum value stored in the tree
     - [ ] is_binary_search_tree
-    - [ ] delete_value
-    - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
+    - [x] delete_value
+    - [x] get_successor // returns next-highest value in tree after given value, -1 if none
 
 - ### Heap / Priority Queue / Binary Heap
   - visualized as a tree, but is usually linear in storage (array, linked list)
