@@ -114,3 +114,81 @@ def binarySearch(arr, target):
         binarySearch(arr[midpt + 1:max], target)
     else:
         return midpt
+
+
+class binary_heap():
+    def __init__(self):
+        self.heap = []
+
+    def insert(self, val):
+        self.heap.append(val)
+        self.sift_up(len(self.heap) - 1)
+
+    def sift_up(self, val_idx):
+        print("sift up is working")
+        while val_idx > 0 and self.heap[val_idx] > self.heap[(val_idx - 1)
+                                                             // 2]:
+            print("the while loop in sift up is working")
+
+            self.heap[val_idx], self.heap[(
+                val_idx - 1) // 2] = (self.heap[(val_idx - 1) // 2],
+                                      self.heap[val_idx])
+
+            val_idx = (val_idx - 1) // 2
+
+    def get_max(self):
+        return self.heap[0]
+
+    def get_size(self):
+        return len(self.heap)
+
+    def is_empty(self):
+        return not bool(len(self.heap))
+
+    def extract_max(self):
+        self.heap[0], self.heap[-1] = self.heap[-1], self.heap[0]
+        val = self.heap.pop()
+        self.sift_down(0)
+        return val
+
+    def sift_down(self, idx_val):
+        while True:
+            max_idx = idx_val
+            if (((idx_val + 1) * 2) - 1) < self.get_size() and (
+                    self.heap[max_idx]
+                    < self.heap[(((idx_val + 1) * 2) - 1)]):
+                max_idx = (((idx_val + 1) * 2) - 1)
+            if ((idx_val + 1) * 2) < self.get_size() and (self.heap[max_idx]
+                                                          < self.heap[(idx_val
+                                                                       + 1)
+                                                                      * 2]):
+                max_idx = (idx_val + 1) * 2
+            if max_idx == idx_val:
+                return None
+            self.heap[max_idx], self.heap[idx_val] = (
+                self.heap[idx_val], self.heap[max_idx])
+            idx_val = max_idx
+
+    def remove(self, idx_val):
+        self.heap[idx_val], self.heap[-1] = self.heap[-1], self.heap[idx_val]
+        self.heap.pop()
+        self.sift_down(idx_val)
+
+
+# test
+
+f = binary_heap()
+lst = [5, 10, 15, 12, 13, 14, 5, 6, 3, 4, 6, 7]
+# print(*map(f.insert, lst),)
+[f.insert(x) for x in lst]
+
+
+class BinaryHeapNode():
+    def __init__(self, val, parent):
+        self.val = val
+        self.parent = parent
+
+
+# I'm going to implement a max heap here. Note that there is a correct and
+# incorrect way of sorting with heaps, and I'm not sure which way is right!
+# I'm also not going to worry about sorting just yet, though.
