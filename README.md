@@ -23,7 +23,7 @@
   - [Binary search](#binary-search)
   - [Bitwise operations (optional)](#bitwise-operations)
 - [Trees -- Day 2](#trees)
-  - [Trees - Notes & Background] (#trees---notes--background)
+  - [Trees - Notes & Background](#trees---notes--background)
   - [Binary search trees: BSTs](#binary-search-trees-bsts)
   - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
   - balanced search trees (general concept, not details)
@@ -35,11 +35,11 @@
   - quicksort
   - merge sort
 - [Graphs -- Days 7-10 ](#graphs)
-  - directed -- 7/3/20
-  - undirected -- 7/6/20
-  - adjacency matrix -- 7/7/20
-  - adjacency list -- 7/8/20
-  - traversals: BFS, DFS -- 7/10/20
+  - directed
+  - undirected
+  - adjacency matrix
+  - adjacency list
+  - traversals: BFS, DFS
 - [Even More Knowledge -- Days 11-16 ](#even-more-knowledge)
   - [Recursion](#recursion)
   - [Dynamic Programming](#dynamic-programming)
