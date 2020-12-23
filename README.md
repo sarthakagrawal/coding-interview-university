@@ -10,50 +10,50 @@
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
 - [Book List](#book-list)
 - [Before you Get Started](#before-you-get-started)
-- [Prerequisite Knowledge -- 5/19/20](#prerequisite-knowledge)
+- [Prerequisite Knowledge -- Day 0](#prerequisite-knowledge)
 - [The Daily Plan](#the-daily-plan)
-- [Algorithmic complexity / Big-O / Asymptotic analysis -- 5/19/20](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Data Structures](#data-structures)
-  - [Arrays -- 5/21/20](#arrays)
-  - [Linked Lists -- 5/22/20](#linked-lists)
-  - [Stack -- 5/26/20](#stack)
-  - [Queue -- 5/27/20](#queue)
-  - [Hash table -- 5/28/20](#hash-table)
-- [More Knowledge](#more-knowledge)
-  - [Binary search -- 5/29/20](#binary-search)
-  - [Bitwise operations -- 5/29/20](#bitwise-operations)
-- [Trees](#trees)
-  - [Trees - Notes & Background -- 6/1/20](#trees---notes--background)
-  - [Binary search trees: BSTs -- 6/19/20](#binary-search-trees-bsts)
-  - [Heap / Priority Queue / Binary Heap -- 6/23/20](#heap--priority-queue--binary-heap)
+- [Algorithmic complexity / Big-O / Asymptotic analysis -- Day 0](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [Data Structures -- Day 1](#data-structures)
+  - [Arrays ](#arrays)
+  - [Linked Lists](#linked-lists)
+  - [Stack](#stack)
+  - [Queue](#queue)
+  - [Hash table](#hash-table)
+- [More Knowledge -- Day 1](#more-knowledge)
+  - [Binary search](#binary-search)
+  - [Bitwise operations (optional)](#bitwise-operations)
+- [Trees -- Day 2](#trees)
+  - [Trees - Notes & Background] (#trees---notes--background)
+  - [Binary search trees: BSTs](#binary-search-trees-bsts)
+  - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
   - balanced search trees (general concept, not details)
   - traversals: preorder, inorder, postorder, BFS, DFS
-- [Sorting](#sorting)
-  - selection -- 6/24/20
-  - insertion -- 6/25/20
-  - heapsort -- 6/26/20
-  - quicksort -- 6/30/20
-  - merge sort -- 7/1/20
-- [Graphs](#graphs)
+- [Sorting -- Days 3-6](#sorting)
+  - selection
+  - insertion
+  - heapsort
+  - quicksort
+  - merge sort
+- [Graphs -- Days 7-10 ](#graphs)
   - directed -- 7/3/20
   - undirected -- 7/6/20
   - adjacency matrix -- 7/7/20
   - adjacency list -- 7/8/20
   - traversals: BFS, DFS -- 7/10/20
-- [Even More Knowledge](#even-more-knowledge)
-  - [Recursion -- 7/11/20](#recursion)
-  - [Dynamic Programming -- 7/16/20](#dynamic-programming)
-  - [Object-Oriented Programming -- 7/18/20](#object-oriented-programming)
-  - [Design Patterns -- 7/20/20](#design-patterns)
-  - [Combinatorics (n choose k) & Probability -- 7/20/20](#combinatorics-n-choose-k--probability)
-  - [NP, NP-Complete and Approximation Algorithms -- 7/23/20](#np-np-complete-and-approximation-algorithms)
-  - [Caches -- 7/24/20](#caches)
-  - [Processes and Threads -- 7/25/20](#processes-and-threads)
-  - [Testing -- 7/27/20](#testing)
-  - [Scheduling -- 7/27/20](#scheduling)
-  - [String searching & manipulations -- 7/28/20](#string-searching--manipulations)
-  - [Tries -- 7/29/20](#tries)
-  - [Floating Point Numbers -- 7/30/20](#floating-point-numbers)
+- [Even More Knowledge -- Days 11-16 ](#even-more-knowledge)
+  - [Recursion](#recursion)
+  - [Dynamic Programming](#dynamic-programming)
+  - [Object-Oriented Programming](#object-oriented-programming)
+  - [Design Patterns](#design-patterns)
+  - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
+  - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
+  - [Caches](#caches)
+  - [Processes and Threads](#processes-and-threads)
+  - [Testing](#testing)
+  - [Scheduling](#scheduling)
+  - [String searching & manipulations](#string-searching--manipulations)
+  - [Tries](#tries)
+  - [Floating Point Numbers](#floating-point-numbers)
 - [Final Review](#final-review)
 - [Coding Question Practice](#coding-question-practice)
 - [Coding exercises/challenges](#coding-exerciseschallenges)
@@ -222,33 +222,25 @@ without lyrics and you'll be able to focus pretty well.
 
 ## The Daily Plan
 
-Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement. I plan to take 1-2 passes through the material. The first pass should take 8 weeks and will be done with Python. The plan is to spend 1-2 days on a subtopic, watch videos/read about the topic, and then complete relevant exercises on Leetcode.
+Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement. Since I've previously covered most of this material in Summer 2020, I plan to take 1 pass through the material for 2.5 weeks. I'll spend less time on things I'm comfortable with, around a day or two. For things I'm not familiar wiht, plan is to 1-2 subtopics in a day, watch videos/read about the topic, and then complete relevant exercises on Leetcode. I have 4 hours to invest per day in studying the materials and doing Leetcode.
 
-- Python - using built-in types (to keep practicing Python)
-- and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
+Given the above, a 16 day plan means 64 hours spent studying the basics. After that initial 16 day period, I have a full week (4\*6 = 24 hours) to dedicate to solving problems on Leetcode. Starting Jan 18, I'll be more focused on my coursework, so I'll only have 1-2 hours per day to do further Leetcode questions. I don't expect to get any interviews before Jan 18, so I'll have at least 88 hours of prep under my belt before my first interview; and then I'll be getting 6-12 hours per week until I land a Summer 2021 internship. Of course, this plan is subject to change as I move forward, etc.
 
-<i> Optional second pass:
+## Prerequisite Knowledge
 
-- C++ - without using built-in types
-- C++ - using built-in types, like STL's std::list for a linked list </i>
+- [ ] **How computers process a program:**
+  - [ ] [How CPU executes a program (video)](https://www.youtube.com/watch?v=XM4lGflQFvA)
+  - [ ] [How computers calculate - ALU (video)](https://youtu.be/1I5ZMmrOfnA)
+  - [ ] [Registers and RAM (video)](https://youtu.be/fpnE6UAfbtU)
+  - [ ] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
+  - [ ] [Instructions and Programs (video)](https://youtu.be/zltgXvg6r3k)
 
-Once I've learned the basics of the relevant data structures/algorithms in this syllabus, the plan is to devote my remaining time to Leetcode practice. In any case, I'll reevaluate in two months, in mid-July.
-
-## Prerequisite Knowledge -- 5/19/20
-
-- [x] **How computers process a program:**
-  - [x] [How CPU executes a program (video)](https://www.youtube.com/watch?v=XM4lGflQFvA)
-  - [x] [How computers calculate - ALU (video)](https://youtu.be/1I5ZMmrOfnA)
-  - [x] [Registers and RAM (video)](https://youtu.be/fpnE6UAfbtU)
-  - [x] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
-  - [x] [Instructions and Programs (video)](https://youtu.be/zltgXvg6r3k)
-
-## Algorithmic complexity / Big-O / Asymptotic analysis -- 5/19/20
+## Algorithmic complexity / Big-O / Asymptotic analysis
 
 - Nothing to implement
 - There are a lot of videos here. Just watch enough until you understand it. You can always come back and review.
 - If some of the lectures are too mathy, you can jump down to the bottom and watch the discrete mathematics videos to get the background knowledge.
-- [x] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] Skiena:
@@ -271,8 +263,8 @@ Once I've learned the basics of the relevant data structures/algorithms in this 
 - ### Arrays -- 5/21/20
 
   - Implement an automatically resizing vector.
-    \_ Sarthak's note -- I glazed by the implementation since in Python you can't use pointers/the only possible implementation of an array in Python seems to involve the use of List, which makes it pretty simple.
-  - [x] Description:
+    - Note -- I glazed by the implementation since in Python you can't use pointers/the only possible implementation of an array in Python seems to involve the use of List, which makes it pretty simple.
+  - [ ] Description:
     - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
     - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
     - [Basic Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
@@ -307,12 +299,12 @@ Once I've learned the basics of the relevant data structures/algorithms in this 
     - contiguous in memory, so proximity helps performance
     - space needed = (array capacity, which is >= n) \* size of item, but even if 2n, still O(n)
 
-- ### Linked Lists -- 5/22/20
+- ### Linked Lists
 
-  - [x] Description:
-    - [x] [singly linked lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
-    - [x] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
-    - [x] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+  - [ ] Description:
+    - [ ] [singly linked lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
+    - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
+    - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
   - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo) - not the whole video, just portions about Node struct and memory allocation.
   - [ ] Linked List vs Arrays:
     - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
@@ -337,22 +329,22 @@ Once I've learned the basics of the relevant data structures/algorithms in this 
     - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
     - [ ] reverse() - reverses the list
     - [ ] remove_value(value) - removes the first item in the list with this value
-  - [x] Doubly-linked List
+  - [ ] Doubly-linked List
     - [Description (video)](https://www.youtube.com/watch?v=JdQeNxWCguQ) (originial recc was behind paywall, so I substituted this youtube video)
     - No need to implement
 
 - ### Stack
 
-  - [x] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-  - [x] [Using Stacks Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
-  - [x] Will not implement. Implementing with array is trivial.
+  - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+  - [ ] [Using Stacks Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
+  - [ ] Will not implement. Implementing with array is trivial.
 
 - ### Queue
 
-  - [x] [Using Queues First-In First-Out(video)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
-  - [x] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
-  - [x] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-  - [x] [Priority Queues (video)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
+  - [ ] [Using Queues First-In First-Out(video)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
+  - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+  - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+  - [ ] [Priority Queues (video)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
   - [ ] Implement using linked-list, with tail pointer:
     - enqueue(value) - adds value at position at tail
     - dequeue() - returns value and removes least recently added element (front)
@@ -373,10 +365,10 @@ Once I've learned the basics of the relevant data structures/algorithms in this 
 
   - [ ] Videos:
 
-    - [x] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
-    - [x] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
+    - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [x][pycon 2010: the mighty dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
+    - [ ][pycon 2010: the mighty dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
     - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
     - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
@@ -404,7 +396,7 @@ Once I've learned the basics of the relevant data structures/algorithms in this 
 
 - ### Binary search
 
-  - [x] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
+  - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
   - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
   - [x] [detail](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
   - [ ] Implement:
@@ -442,12 +434,12 @@ Once I've learned the basics of the relevant data structures/algorithms in this 
 
 - ### Trees - Notes & Background
 
-  - [x][series: core trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
+  - [ ][series: core trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
   - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
   - basic tree construction
   - traversal
   - manipulation algorithms
-  - [x] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
+  - [ ] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
     - BFS notes:
       - level order (BFS, using queue)
       - time complexity: O(n)
@@ -463,7 +455,7 @@ Once I've learned the basics of the relevant data structures/algorithms in this 
 
 - ### Binary search trees: BSTs
 
-  - [x] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+  - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
   - [ ] [Series (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
     - starts with symbol table and goes through BST applications
   - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
@@ -480,43 +472,43 @@ Once I've learned the basics of the relevant data structures/algorithms in this 
     - [ ] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
     - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
   - [ ] Implement:
-    - [x] insert // insert value into tree
-    - [x] get_node_count // get count of values stored
-    - [x] print_values // prints the values in the tree, from min to max
+    - [ ] insert // insert value into tree
+    - [ ] get_node_count // get count of values stored
+    - [ ] print_values // prints the values in the tree, from min to max
     - [ ] delete_tree
-    - [x] is_in_tree // returns true if given value exists in the tree
+    - [ ] is_in_tree // returns true if given value exists in the tree
     - [ ] get_height // returns the height in nodes (single node's height is 1)
     - [ ] get_min // returns the minimum value stored in the tree
     - [ ] get_max // returns the maximum value stored in the tree
     - [ ] is_binary_search_tree
-    - [x] delete_value
-    - [x] get_successor // returns next-highest value in tree after given value, -1 if none
+    - [ ] delete_value
+    - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
 
 - ### Heap / Priority Queue / Binary Heap
   - visualized as a tree, but is usually linear in storage (array, linked list)
-  - [x] [Heap](<https://en.wikipedia.org/wiki/Heap_(data_structure)>)
-  - [x] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
-  - [x] [Naive Implementations (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
-  - [x] [Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
-  - [x] [Tree Height Remark (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
-  - [x]] [Basic Operations (video)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
-  - [x] [Complete Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
+  - [ ] [Heap](<https://en.wikipedia.org/wiki/Heap_(data_structure)>)
+  - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
+  - [ ] [Naive Implementations (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
+  - [ ] [Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
+  - [ ] [Tree Height Remark (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
+  - [ ]] [Basic Operations (video)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
+  - [ ] [Complete Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
   - [ ] [Pseudocode (video)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
-  - [x] [Heap Sort - jumps to start (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
+  - [ ] [Heap Sort - jumps to start (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
   - [ ] [Heap Sort (video)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
   - [ ] [Building a heap (video)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
   - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
   - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
   - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
   - [ ] Implement a max-heap:
-    - [x] insert
-    - [x] sift_up - needed for insert
-    - [x] get_max - returns the max item, without removing it
-    - [x] get_size() - return number of elements stored
-    - [x] is_empty() - returns true if heap contains no elements
-    - [x] extract_max - returns the max item, removing it
-    - [x] sift_down - needed for extract_max
-    - [x] remove(i) - removes item at index x
+    - [ ] insert
+    - [ ] sift_up - needed for insert
+    - [ ] get_max - returns the max item, without removing it
+    - [ ] get_size() - return number of elements stored
+    - [ ] is_empty() - returns true if heap contains no elements
+    - [ ] extract_max - returns the max item, removing it
+    - [ ] sift_down - needed for extract_max
+    - [ ] remove(i) - removes item at index x
     - [ ] heapify - create a heap from an array of elements, needed for heap_sort
     - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
       - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
